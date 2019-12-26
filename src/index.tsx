@@ -7,5 +7,5 @@ export function start(ele:HTMLElement){
         <Demo data={"11113331"} />
     ,ele)
 }
-
+console.log(1111111)
 start(document.body)
