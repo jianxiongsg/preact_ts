@@ -46,7 +46,10 @@ module.exports={
                 exclude:/(node_modules | bower_components)/,
                 use:[
                     {
-                        loader:'stylesheet-loader'
+                        loader:'style-loader'
+                    },
+                    {
+                        loader:'css-loader'
                     },
                     {
                         loader:'less-loader'

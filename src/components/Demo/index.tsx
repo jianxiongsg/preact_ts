@@ -13,7 +13,7 @@ export default class Demo extends Component<PropsInfo,StateInfo>{
     }
     render(){
         return (
-            <div className={"box"}>{this.props.data}</div>
+            <div className={"box1"}>{this.props.data}</div>
         )
     }
 }
